@@ -29,3 +29,21 @@ const myFunction = function(){
 console.log(typeof myFunction);
 console.log(typeof heroes);
 console.log(typeof myObj);
+
+// #STACK(Primitive), HEAP(Non-Primitive) :-
+
+let gitcode = "Afreen"
+let anothername = gitcode
+anothername = "coding"
+console.log(gitcode);
+console.log(anothername);
+
+let userOne = {
+    email:"afreen123@gmail.com",
+    upi:"user@120"
+}
+let userTwo = userOne
+userTwo.email = "hussain123@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
