@@ -14,4 +14,10 @@ let myTimeStamp = Date.now()
 console.log(myTimeStamp);
 console.log(myCreatedDate.getTime());
 
-// for date in ms - 
+let newDate = new Date()
+console.log(newDate)
+console.log(newDate.getFullYear())
+
+newDate.toLocaleString('default',{
+    weekday:'long'
+})
