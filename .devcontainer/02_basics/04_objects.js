@@ -41,7 +41,31 @@ const users = [
     }
 ]
 users[1].email
-console.log(Object.keys(gituser));
-console.log(Object.values(gituser));
-console.log(Object.entries(gituser));
-console.log(gituser.hasOwnProperty('isLoggedIn'));
+// console.log(Object.keys(gituser));
+// console.log(Object.values(gituser));
+// console.log(Object.entries(gituser));
+// console.log(gituser.hasOwnProperty('isLoggedIn'));
+
+
+// *Object Destructuring* //
+
+const course ={
+    coursename:"javascript",
+    price:"999",
+    student:"Afreen Hussain"
+}
+const {student:girl} = course
+console.log(girl);
+
+// *API Concepts example*
+
+// {
+//     "name" : "Afreen",
+//     "id":"1"
+// }
+
+[
+    {},
+    {},
+    {}
+]
