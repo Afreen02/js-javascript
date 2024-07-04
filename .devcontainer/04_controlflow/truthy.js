@@ -24,3 +24,13 @@ if(Object.keys(emptyObj).length === 0){
 }
 
 // NULLISH COALESCING Operator (??): null undefined
+// for null and undefined it takes 2nd value.
+let val1;
+// val1 = 5 ?? 10
+val1 = null ?? 20
+console.log(val1);
+
+// Ternary operator
+// condition ? true : false 
+const iceteaprice = 100
+iceteaprice <= 80 ? console.log("less than 80") : console.log("more than 80")
