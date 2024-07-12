@@ -17,5 +17,10 @@
         document.querySelector('.language').appendChild(li)
     }
     addLanguage("python");
+
+    function addotherLang(langName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+    }
 </script>
 </html>
