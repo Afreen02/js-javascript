@@ -13,5 +13,12 @@
     console.log(div);
     div.className = "main"
     div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title", "generated title")
+    div.style.backgroundColor = "green"
+    div.style.padding = "10px"
+    div.innerText = "Code"
+    const addtext = document.createTextNode('Coding')
+    div.appendChild(addtext)
+    document.body.appendChild(div)
 </script>
 </html>
